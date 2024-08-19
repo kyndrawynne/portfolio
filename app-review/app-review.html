@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/Article">
+
 <head>
     <meta charset="UTF-8">
     <title>App Review Dashboard &ndash; Kyndra Wynne &nbsp;/&nbsp; UX/UI Designer</title>
-    <meta name="description" content="A conceptual internal dashboard designed to streamline the content review process for digital marketplaces and content platforms.">
+    <meta name="description"
+        content="A conceptual internal dashboard designed to streamline the content review process for digital marketplaces and content platforms.">
     <meta name="keywords" content="Kyndra, Kyndra Wynne, Wynne, UX Design, UI Design, App Review Dashboard" />
     <link href="https://kyndrawynne.com/app-review/" rel="canonical" />
     <meta name="author" content="Kyndra Wynne" />
     <meta name="publisher" content="Kyndra Wynne" />
     <meta name="copyright" content="Kyndra Wynne" />
-    
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="160x160" href="../favicon-160x160.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png" />
@@ -23,14 +25,16 @@
     <meta property="og:site_name" content="Kyndra Wynne" />
     <meta property="og:image" content="../projects/app-review-preview.png" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Kyndra Wynne. Kyndra is a designer and front-end developer with a passion for crafting intuitive user experiences." />
+    <meta property="og:description"
+        content="Kyndra Wynne. Kyndra is a designer and front-end developer with a passion for crafting intuitive user experiences." />
     <meta property="og:url" content="https://kyndrawynne.com/about/about.html" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@kyndrawynne" />
     <meta name="twitter:title" content="About – Kyndra Wynne / Designer and Front-End Developer" />
-    <meta name="twitter:description" content="Kyndra Wynne. Kyndra is a designer and front-end developer with a passion for crafting intuitive user experiences." />
+    <meta name="twitter:description"
+        content="Kyndra Wynne. Kyndra is a designer and front-end developer with a passion for crafting intuitive user experiences." />
     <meta name="twitter:image" content="../projects/app-review-preview.png" />
     <meta name="twitter:site" content="https://kyndrawynne.com/about/about.html" />
 
@@ -46,265 +50,314 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script>
-    (function($) {          
-        $(document).ready(function(){                    
-            $(window).scroll(function(){                          
-                if ($(this).scrollTop() > window.innerHeight / 2) {
-                    $('#stickiednavigationbar').fadeIn(400);
-                } else {
-                    $('#stickiednavigationbar').fadeOut(300);
-                }
+        (function ($) {
+            $(document).ready(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > window.innerHeight / 2) {
+                        $('#stickiednavigationbar').fadeIn(400);
+                    } else {
+                        $('#stickiednavigationbar').fadeOut(300);
+                    }
+                });
             });
-        });
-    })(jQuery);
+        })(jQuery);
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123708160-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-      gtag('config', 'UA-123708160-1');
+        gtag('config', 'UA-123708160-1');
     </script>
 
 </head>
+
 <body>
 
-<svg display="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<defs>
-				
-		<!-- LinkedIn -->
-		<symbol id="ic-soc-li" viewBox="0 0 24 24">
-		<title>LinkedIn account – kyndrawynne</title>
-		<desc>LinkedIn logo linked to the LinkedIn account for Kyndra Wynne</desc>
-		<g transform="matrix(1,0,0,1,-62,2)">
-        <path d="M80.641,0L67.359,0C65.512,0 64,1.512 64,3.359L64,16.641C64,18.488 65.512,20 67.359,20L80.641,20C82.488,20 84,18.488 84,16.641L84,3.359C84,1.512 82.488,0 80.641,0ZM71.5,16.25L69,16.25L69,7.5L71.5,7.5L71.5,16.25ZM70.25,6.25C69.56,6.25 69,5.69 69,5C69,4.31 69.56,3.75 70.25,3.75C70.94,3.75 71.5,4.31 71.5,5C71.5,5.69 70.94,6.25 70.25,6.25ZM80.25,16.25L77.75,16.25L77.75,11.25C77.75,10.56 77.19,10 76.5,10C75.81,10 75.25,10.56 75.25,11.25L75.25,16.25L72.75,16.25L72.75,7.5L75.25,7.5L75.25,9.052C75.766,8.344 76.554,7.5 77.438,7.5C78.991,7.5 80.25,8.899 80.25,10.625L80.25,16.25Z" />
-    	</g>
-		</symbol>
+    <svg display="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <defs>
 
-		<!-- Email -->
-		<symbol id="ic-soc-email" viewBox="0 0 24 24">
-		<title>knwynne@asu.edu</title>
-		<desc>Email icon linked to knwynne@asu.edu</desc>
-   	 	<g transform="matrix(1,0,0,1,-122,2)">
-        <path d="M142,2L126,2C124.9,2 124,2.9 124,4L124,16C124,17.1 124.9,18 126,18L142,18C143.1,18 144,17.1 144,16L144,4C144,2.9 143.1,2 142,2ZM142,6L134,11L126,6L126,4L134,9L142,4L142,6Z" />
-    	</g>
-		</symbol>
-	</defs>
-</svg>
+            <!-- LinkedIn -->
+            <symbol id="ic-soc-li" viewBox="0 0 24 24">
+                <title>LinkedIn account – kyndrawynne</title>
+                <desc>LinkedIn logo linked to the LinkedIn account for Kyndra Wynne</desc>
+                <g transform="matrix(1,0,0,1,-62,2)">
+                    <path
+                        d="M80.641,0L67.359,0C65.512,0 64,1.512 64,3.359L64,16.641C64,18.488 65.512,20 67.359,20L80.641,20C82.488,20 84,18.488 84,16.641L84,3.359C84,1.512 82.488,0 80.641,0ZM71.5,16.25L69,16.25L69,7.5L71.5,7.5L71.5,16.25ZM70.25,6.25C69.56,6.25 69,5.69 69,5C69,4.31 69.56,3.75 70.25,3.75C70.94,3.75 71.5,4.31 71.5,5C71.5,5.69 70.94,6.25 70.25,6.25ZM80.25,16.25L77.75,16.25L77.75,11.25C77.75,10.56 77.19,10 76.5,10C75.81,10 75.25,10.56 75.25,11.25L75.25,16.25L72.75,16.25L72.75,7.5L75.25,7.5L75.25,9.052C75.766,8.344 76.554,7.5 77.438,7.5C78.991,7.5 80.25,8.899 80.25,10.625L80.25,16.25Z" />
+                </g>
+            </symbol>
 
-<!-- Navigation -->
-<div id="stickiednavigationbar">
-	<div class="navigationbar">
-		<div class="nav">	
-    		<div class="name">
-				<a href="../index.html">
-					Kyndra Wynne
-				</a>
-			</div>
+            <!-- Email -->
+            <symbol id="ic-soc-email" viewBox="0 0 24 24">
+                <title>knwynne@asu.edu</title>
+                <desc>Email icon linked to knwynne@asu.edu</desc>
+                <g transform="matrix(1,0,0,1,-122,2)">
+                    <path
+                        d="M142,2L126,2C124.9,2 124,2.9 124,4L124,16C124,17.1 124.9,18 126,18L142,18C143.1,18 144,17.1 144,16L144,4C144,2.9 143.1,2 142,2ZM142,6L134,11L126,6L126,4L134,9L142,4L142,6Z" />
+                </g>
+            </symbol>
+        </defs>
+    </svg>
 
-			<div class="name-logo">
-				<a href="../index.html">
-					<svg class="name-icon"><use xlink:href="#ic-x-icon" /></svg>
-				</a>
-			</div>
-            
-    			<ul>
-      				<li class="hidesmall145">
-            			<a href="../resume/resume.html">RESUME</a>
-            		</li>
-				
-				<li class="hidesmall197 active">
-            		<a href="../about/about.html">ABOUT</a>
-            	</li>
-  
-            	<li class="hidesmall9">
-            		<a href="../index.html">PROJECTS</a>
-            	</li>    
-			</ul>
-		</div>
-    </div>
-</div>
+    <!-- Navigation -->
+    <div id="stickiednavigationbar">
+        <div class="navigationbar">
+            <div class="nav">
+                <div class="name">
+                    <a href="../index.html">
+                        Kyndra Wynne
+                    </a>
+                </div>
 
-<!-- Banner -->
-<div class="parallax-app-review"></div>
+                <div class="name-logo">
+                    <a href="../index.html">
+                        <svg class="name-icon">
+                            <use xlink:href="#ic-x-icon" />
+                        </svg>
+                    </a>
+                </div>
 
-<!-- Body content -->
-<div class="wrapper">
-    <div class="projects-summary">  
-        <h1>App Review Dashboard</h1>
-        <p><strong>Revolutionizing Digital Content Reviews</strong></p>
-        <p>As an independent designer and front-end developer, I conceptualized and built an internal dashboard to streamline content review processes for digital marketplaces and content platforms. This project aimed to address the growing challenges in managing the increasing volume and complexity of digital content submissions.</p>
-    </div>
+                <ul>
+                    <li class="hidesmall145">
+                        <a href="../resume/resume.html">RESUME</a>
+                    </li>
 
-    <div class="projects-infosheet">
-        <div class="infofloat-left margin-bottom-18">
-            <h4>Project Type</h4>
-            <p>Conceptual Design</p>
+                    <li class="hidesmall197 active">
+                        <a href="../about/about.html">ABOUT</a>
+                    </li>
 
-            <h4>My Role</h4>
-            <p>UX/UI Designer, Front-End Developer</p>
-
-            <h4>Tools</h4>
-            <p>Figma, React, Recharts, Lucide React, Tailwind CSS</p>
-        
-            <h4>Key Skills</h4>
-            <p>User Research, Information Architecture, Interaction Design, Visual Design, Prototyping, Front-End Development</p>
+                    <li class="hidesmall9">
+                        <a href="../index.html">PROJECTS</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-    
-    <div class="projects-body">  
-        <div class="projects-group"> 
-            <h2>THE CHALLENGE</h2>
-            <p>Digital marketplaces face numerous challenges in their content review processes, including:</p>
+
+    <!-- Banner -->
+    <div class="parallax-app-review"></div>
+
+    <!-- Body content -->
+    <div class="wrapper">
+        <div class="projects-summary">
+            <h1>App Review Dashboard</h1>
+            <p><strong>Revolutionizing Digital Content Reviews</strong></p>
+            <p>As an independent designer and front-end developer, I conceptualized and built an internal dashboard to
+                streamline content review processes for digital marketplaces and content platforms. This project aimed
+                to address the growing challenges in managing the increasing volume and complexity of digital content
+                submissions.</p>
+        </div>
+
+        <div class="projects-infosheet">
+            <div class="infofloat-left margin-bottom-18">
+                <h4>Project Type</h4>
+                <p>Conceptual Design</p>
+
+                <h4>My Role</h4>
+                <p>UX/UI Designer, Front-End Developer</p>
+
+                <h4>Tools</h4>
+                <p>Figma, React, Recharts, Lucide React, Tailwind CSS</p>
+
+                <h4>Key Skills</h4>
+                <p>User Research, Information Architecture, Interaction Design, Visual Design, Prototyping, Front-End
+                    Development</p>
+            </div>
+        </div>
+
+        <div class="projects-body">
+            <div class="projects-group">
+                <h2>THE CHALLENGE</h2>
+                <p>Digital marketplaces face numerous challenges in their content review processes, including:</p>
+                <div class="projects-list" style="margin-bottom:6.8rem;">
+                    <ul>
+                        <li>Inefficient workflows leading to unpredictable review times</li>
+                        <li>Inconsistency in applying review guidelines</li>
+                        <li>Difficulty in prioritizing high-impact or time-sensitive content</li>
+                        <li>Lack of transparency for content creators</li>
+                        <li>Challenges in adapting to evolving content formats and technologies</li>
+                    </ul>
+                </div>
+                <h2>USER RESEARCH</h2>
+                <p>I conducted extensive research to understand the challenges faced by content review teams and
+                    creators, including:</p>
+                <div class="projects-list" style="margin-bottom:6.8rem;">
+                    <ul>
+                        <li>Analyzing public forums and social media discussions</li>
+                        <li>Reviewing industry reports and white papers</li>
+                        <li>Studying user reviews and feedback on various platforms</li>
+                        <li>Interviewing freelance content creators and small app developers</li>
+                        <li>Analyzing publicly available data on app approval times and rejection reasons</li>
+                    </ul>
+                </div>
+                <h2>THE GOAL</h2>
+                <p>Design and develop a conceptual internal dashboard that streamlines the content review process,
+                    improves consistency, and provides valuable insights to both reviewers and management, with a focus
+                    on responsive design and accessibility.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Design Process Section -->
+    <div class="projects-mid-image">
+        <img src="../work/app-review/design-process.png" alt="Design Process Illustration" />
+    </div>
+    <div class="projects-caption">
+        <p>Overview of the design thinking process</p>
+    </div>
+
+    <div class="wrapper">
+        <div class="projects-body">
+
+            <h2>DESIGN THINKING PROCESS</h2>
+            <p>The project followed a user-centered design thinking approach, which included the following phases:</p>
+
+            <h3><strong>Empathize</strong></h3>
+            <p>I started by understanding the needs and frustrations of content reviewers and creators through targeted
+                user research, interviews, and competitive analysis. This led to the development of detailed user
+                personas to guide the design process.</p>
+
+            <h3><strong>Define</strong></h3>
+            <p>Based on the research findings, I defined the core problems, such as workflow inefficiencies and a lack
+                of transparency, and created a problem statement that focused the design on solving these issues.</p>
+
+            <h3><strong>Ideate</strong></h3>
+            <p>I sketched and wireframed multiple solutions, including a unified interface, real-time metrics, and a
+                transparency portal. I iterated on these designs through peer feedback and usability testing to refine
+                the final concept.</p>
+
+            <h3><strong>Prototype</strong></h3>
+            <p>Using Figma, I developed a high-fidelity prototype that visualized the final design. I then built out the
+                front end using React, ensuring the dashboard was fully responsive and accessible, with features like
+                keyboard navigation and screen reader support.</p>
+
+            <h3><strong>Test</strong></h3>
+            <p>Although this was a design project, I conducted informal peer reviews and usability tests to gather
+                feedback on the React-built front end, making iterative improvements to enhance the user experience.</p>
+
+        </div>
+    </div>
+
+    <!-- Solution Section -->
+    <div class="projects-mid-image">
+        <img src="../work/app-review/dashboard-preview.png" alt="App Review Dashboard Preview" />
+    </div>
+    <div class="projects-caption">
+        <p>Final design of the App Review Dashboard</p>
+    </div>
+
+    <div class="wrapper">
+        <div class="projects-body">
+            <h2>THE SOLUTION: CONTENT REVIEW DASHBOARD</h2>
+            <p>The App Store Review Dashboard is a comprehensive solution designed to streamline the content review
+                process, improve consistency, and provide valuable insights to reviewers and management. Key features of
+                the dashboard include:</p>
             <div class="projects-list" style="margin-bottom:6.8rem;">
                 <ul>
-                    <li>Inefficient workflows leading to unpredictable review times</li>
-                    <li>Inconsistency in applying review guidelines</li>
-                    <li>Difficulty in prioritizing high-impact or time-sensitive content</li>
-                    <li>Lack of transparency for content creators</li>
-                    <li>Challenges in adapting to evolving content formats and technologies</li>
+                    <li><strong>Real-time Metrics:</strong> At-a-glance view of critical performance indicators,
+                        including current queue size, average review time, approval rate, and individual reviewer
+                        efficiency.</li>
+                    <li><strong>Data Visualization:</strong> Interactive charts displaying weekly review volume and
+                        common rejection reasons, providing insights into workflow patterns and areas for improvement.
+                    </li>
+                    <li><strong>Review Queue Management:</strong> A customizable view of the current review queue with
+                        search and filter capabilities, allowing reviewers to efficiently manage their workload.</li>
+                    <li><strong>Time Tracking:</strong> Built-in timer functionality for each app review, enabling
+                        reviewers to monitor and optimize their time spent on individual reviews.</li>
+                    <li><strong>Priority Alerts:</strong> Highlighting of high-priority reviews, such as critical
+                        updates or high-profile submissions, ensuring timely attention to urgent matters.</li>
+                    <li><strong>Action Items:</strong> A dedicated section for tracking important tasks and goals,
+                        helping reviewers stay organized and focused.</li>
+                    <li><strong>Responsive Design:</strong> A fully responsive layout that adapts to various screen
+                        sizes, ensuring accessibility across different devices.</li>
+                    <li><strong>User-friendly Interface:</strong> Intuitive controls and clear visual hierarchy, making
+                        it easy for reviewers to navigate and perform their tasks efficiently.</li>
                 </ul>
             </div>
-            <h2>USER RESEARCH</h2>
-        <p>I conducted extensive research to understand the challenges faced by content review teams and creators, including:</p>
-        <div class="projects-list" style="margin-bottom:6.8rem;">
-            <ul>
-                <li>Analyzing public forums and social media discussions</li>
-                <li>Reviewing industry reports and white papers</li>
-                <li>Studying user reviews and feedback on various platforms</li>
-                <li>Interviewing freelance content creators and small app developers</li>
-                <li>Analyzing publicly available data on app approval times and rejection reasons</li>
-            </ul>
         </div>
-        <h2>THE GOAL</h2>
-        <p>Design and develop a conceptual internal dashboard that streamlines the content review process, improves consistency, and provides valuable insights to both reviewers and management, with a focus on responsive design and accessibility.</p>
-        </div>
-        </div>
-</div>
-
-<!-- Design Process Section -->
-<div class="projects-mid-image">
-    <img src="../work/app-review/design-process.png" alt="Design Process Illustration" />
-</div> 
-<div class="projects-caption">
-    <p>Overview of the design thinking process</p>  
-</div>
-
-<div class="wrapper">
-    <div class="projects-body"> 
-        <h2>DESIGN THINKING PROCESS</h2>
-        <p>The project followed a user-centered design thinking approach, which included the following phases:</p>
-
-        <h3><strong>Empathize</strong></h3>
-        <p>I started by understanding the needs and frustrations of content reviewers and creators through targeted user research, interviews, and competitive analysis. This led to the development of detailed user personas to guide the design process.</p>
-
-        <h3><strong>Define</strong></h3>
-        <p>Based on the research findings, I defined the core problems, such as workflow inefficiencies and a lack of transparency, and created a problem statement that focused the design on solving these issues.</p>
-
-        <h3><strong>Ideate</strong></h3>
-        <p>I sketched and wireframed multiple solutions, including a unified interface, real-time metrics, and a transparency portal. I iterated on these designs through peer feedback and usability testing to refine the final concept.</p>
-
-        <h3><strong>Prototype</strong></h3>
-        <p>Using Figma, I developed a high-fidelity prototype that visualized the final design. I then built out the front end using React, ensuring the dashboard was fully responsive and accessible, with features like keyboard navigation and screen reader support.</p>
-
-        <h3><strong>Test</strong></h3>
-        <p>Although this was a design project, I conducted informal peer reviews and usability tests to gather feedback on the React-built front end, making iterative improvements to enhance the user experience.</p>
     </div>
-</div>
 
-<!-- Solution Section -->
-<div class="projects-mid-image">
-    <img src="../work/app-review/dashboard-preview.png" alt="App Review Dashboard Preview" />
-</div> 
-<div class="projects-caption">
-    <p>Final design of the App Review Dashboard</p>  
-</div>
-
-<div class="wrapper">
-    <div class="projects-body"> 
-        <h2>THE SOLUTION: CONTENT REVIEW DASHBOARD</h2>
-        <p>The App Store Review Dashboard is a comprehensive solution designed to streamline the content review process, improve consistency, and provide valuable insights to reviewers and management. Key features of the dashboard include:</p>
-        <div class="projects-list" style="margin-bottom:6.8rem;">
-            <ul>
-                <li><strong>Real-time Metrics:</strong> At-a-glance view of critical performance indicators, including current queue size, average review time, approval rate, and individual reviewer efficiency.</li>
-                <li><strong>Data Visualization:</strong> Interactive charts displaying weekly review volume and common rejection reasons, providing insights into workflow patterns and areas for improvement.</li>
-                <li><strong>Review Queue Management:</strong> A customizable view of the current review queue with search and filter capabilities, allowing reviewers to efficiently manage their workload.</li>
-                <li><strong>Time Tracking:</strong> Built-in timer functionality for each app review, enabling reviewers to monitor and optimize their time spent on individual reviews.</li>
-                <li><strong>Priority Alerts:</strong> Highlighting of high-priority reviews, such as critical updates or high-profile submissions, ensuring timely attention to urgent matters.</li>
-                <li><strong>Action Items:</strong> A dedicated section for tracking important tasks and goals, helping reviewers stay organized and focused.</li>
-                <li><strong>Responsive Design:</strong> A fully responsive layout that adapts to various screen sizes, ensuring accessibility across different devices.</li>
-                <li><strong>User-friendly Interface:</strong> Intuitive controls and clear visual hierarchy, making it easy for reviewers to navigate and perform their tasks efficiently.</li>
-            </ul>
-        </div>
-
-        <h3>Key Components:</h3>
-        <ol>
-            <li><strong>Performance Overview:</strong> Four key metric cards displaying current queue size, average review time, approval rate, and individual reviewer efficiency.</li>
-            <li><strong>Data Analysis:</strong> 
-                <ul>
-                    <li>A bar chart showing weekly review volume</li>
-                    <li>A pie chart illustrating common rejection reasons</li>
-                </ul>
-            </li>
-            <li><strong>Review Queue:</strong> 
-                <ul>
-                    <li>Search functionality for finding specific apps</li>
-                    <li>Category filtering to organize reviews</li>
-                    <li>Individual app cards with timer functionality and quick action buttons (approve/reject)</li>
-                </ul>
-            </li>
-            <li><strong>Priority Section:</strong> Alerts for critical updates and high-profile submissions</li>
-            <li><strong>Action Items:</strong> A list of important tasks and goals for the reviewer</li>
-        </ol>
-        
-        <h3>Technologies Used:</h3>
-        <p>The dashboard was built using modern web technologies to ensure performance, scalability, and ease of maintenance:</p>
-        <ul>
-            <li>React: For building a dynamic and responsive user interface</li>
-            <li>Recharts: For creating interactive and visually appealing charts</li>
-            <li>Lucide React: For consistent and scalable icons throughout the interface</li>
-            <li>Tailwind CSS: For rapid styling and responsive design</li>
-        </ul>
-        
-        <p>This solution addresses the key challenges faced by digital marketplaces in their content review processes by providing a centralized, efficient, and data-driven approach to managing app reviews.</p>
-        </div>
-        </div>
-        
-        <!-- Results Section -->
-        <div class="projects-mid-image">
-            <img src="../work/app-review/projected-results.png" alt="Projected Results Chart" />
-        </div> 
-        <div class="projects-caption">
-            <p>Projected improvements after 6 months of implementation</p>  
-        </div>
-        
-        <div class="wrapper">
-            <div class="projects-body"> 
-                <div class="projects-group"> 
-                    <h2>CONCLUSION</h2>
-                    <p>This project showcases my ability to apply design thinking principles to create a user-centered solution, as well as my front-end development skills in building a responsive and accessible interface. By empathizing with users, clearly defining the problem, ideating and prototyping solutions, and building out the front end with React, I was able to deliver a conceptual dashboard that meets the needs of content reviewers and creators alike.</p>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Footer -->
+    <div class="wrapper">
         <div class="projects-body">
-            <hr />
-        </div>
-        
-        <div id="footer"> 
-            <div id="footer-container">
-                <div class="footer-social">
-                    <a href="https://www.linkedin.com/in/kyndra-wynne" target="_blank"><svg class="soc-icon"><use xlink:href="#ic-soc-li" /></svg></a>
-                    <a href="mailto:knwynne@asu.edu" target="_blank"><svg class="soc-icon"><use xlink:href="#ic-soc-email" /></svg></a>
-                </div>
-                <div class="copyright">
-                    &copy; 2024 Designed &amp; Developed by Kyndra Wynne
-                </div>
+            <h2>Key Components</h2>
+            <div class="projects-list" style="margin-bottom:6.8rem;">
+
+                <strong>Performance Overview</strong>
+                <li>Four key metric cards displaying current queue size,average review time, approval rate, and
+                    individual reviewer efficiency.</li>
+
+                <strong>Data Analysis</strong>
+                <li>A bar chart showing weekly review volume</li>
+                <li>A pie chart illustrating common rejection reasons</li>
+
+                <strong>Review Queue</strong>
+                <li>Search functionality for finding specific apps</li>
+                <li>Category filtering to organize reviews</li>
+                <li>Individual app cards with timer functionality and quick action buttons (approve/reject)</li>
+
+                <strong>Priority Section</strong>
+                <li>Alerts for critical updates and high-profile submissions</li>
+
+                <strong>Action Items</strong>
+                <li>A list of important tasks and goals for the reviewer</li>
             </div>
         </div>
-        </body>
-        </html>
+    </div>
+    <div class="wrapper">
+        <div class="projects-body">
+            <h2>Technologies Used:</h2>
+            <p>The dashboard was built using modern web technologies to ensure performance, scalability, and ease of
+                maintenance:</p>
+            <div class="projects-list" style="margin-bottom:6.8rem;">
+                <ul>
+                    <li><strong>React:</strong> For building a dynamic and responsive user interface</li>
+                    <li><strong>Recharts:</strong> For creating interactive and visually appealing charts</li>
+                    <li><strong>Lucide React:</strong> For consistent and scalable icons throughout the interface</li>
+                    <li><strong>Tailwind CSS:</strong> For rapid styling and responsive design</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+        <div class="projects-body">
+            <div class="projects-group">
+                <h2>CONCLUSION</h2>
+                <p>This solution addresses the key challenges faced by digital marketplaces in their content review
+                    processes by providing a centralized, efficient, and data-driven approach to managing app reviews.
+                    Throughout the project, I utilized my ability to apply design thinking principles to create a user-centered
+                    solution, as well as my front-end development skills in building a responsive and accessible
+                    interface. By empathizing with users, clearly defining the problem, ideating and prototyping
+                    solutions, and building out the front end with React, I was able to deliver a conceptual dashboard
+                    that meets the needs of content reviewers and creators alike.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="projects-body">
+        <hr />
+    </div>
+
+    <div id="footer">
+        <div id="footer-container">
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/kyndra-wynne" target="_blank"><svg class="soc-icon">
+                        <use xlink:href="#ic-soc-li" />
+                    </svg></a>
+                <a href="mailto:knwynne@asu.edu" target="_blank"><svg class="soc-icon">
+                        <use xlink:href="#ic-soc-email" />
+                    </svg></a>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Designed &amp; Developed by Kyndra Wynne
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
