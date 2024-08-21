@@ -269,7 +269,7 @@ hr {
 		}
 
 
-/* Work */
+/* Projects */
 	
 	.Kyndra-banner {
 		padding-bottom: 10rem;
@@ -358,34 +358,9 @@ hr {
 		
 /* Portfolio */
 /* Portfolio Header */
-	.parallax-musicpix { 
-    	background-color: #d8672d;
-		background-image: url("../projects/musicpix/img-largesplash.png");
-    	height: 60vh; 
-    	background-attachment: fixed;
-   	 	background-position: center;
-    	background-repeat: no-repeat;
-	   	-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;	
-		}
-		
-	.parallax-locket { 
-    	background-color: #42c4dd;
-		background-image: url("../projects/locket/img-largesplash.png");
-    	height: 60vh; 
-    	background-attachment: fixed;
-   	 	background-position: center;
-    	background-repeat: no-repeat;
-	   	-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;	
-		}
 	
 	.parallax-freshies { 
-    	background-color: #ffba13;
+    	background-color: #81CC3E;
 		background-image: url("../projects/freshies/img-largesplash.png");
     	height: 60vh; 
     	background-attachment: fixed;
@@ -398,7 +373,7 @@ hr {
 		}
 
 	.parallax-staywell { 
-    	background-color: #ff5538;
+    	background-color: #81CC3E;
 		background-image: url("../projects/staywell/img-largesplash.png");
     	height: 60vh; 
     	background-attachment: fixed;
@@ -411,7 +386,7 @@ hr {
 		}
 
 	.parallax-app-review { 
-    	background-color: #3aa8ff;
+    	background-color: #81CC3E;
 		background-image: url("../projects/app-review/img-largesplash.png");
     	height: 60vh; 
     	background-attachment: fixed;
@@ -422,21 +397,6 @@ hr {
 		-o-background-size: cover;
 		background-size: cover;	
 		}
-
-	.parallax-aapl { 
-    	background-color: #A4C3CE;
-		background-image: url("../projects/noindex/img-largesplash.svg");
-    	height: 60vh; 
-    	background-attachment: fixed;
-   	 	background-position: center;
-    	background-repeat: no-repeat;
-	   	-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;	
-		}
-		
-		
 		
 		
 /* Portfolio Summary */	
@@ -680,297 +640,6 @@ hr {
 	.projectshalfimagefreshies p{
 			margin-bottom: .2rem;
 		}
-	
-		
-		
-/* Final Art */	
-
-	.projects-final {
-		background-color: #111213;
-		width: 100%;
-		margin-top: 2.2rem;
-		margin-bottom: 3rem;
-		}
-	
-	.final-section {
-		margin: 0 auto;
-		padding: 9.8rem 0 8rem 0;
-		text-align: center;
-		overflow: auto;
-		}
-	
-	.final-center-text {
-		padding: 3.3rem 4rem 7.4rem 4rem;
-		max-width: 70rem;
-		margin: 0 auto;
-		clear: both;
-		overflow: hidden;
-		text-align: left;
-		position: relative;
-		}
-		
-	.final-center-text  h2 {
-		margin: 0 0 1.2rem 0;
-		color: #ffffff;
-		
-		}
-	
-	.final-center-text  p {
-		line-height: 3.6rem;
-			color: #848B9B;	
-		}
-		
-	.final-center-text > ul {
-		  list-style: none;
-		}
-	
-	.final-center-text li {
-		padding-left: 3rem;
-		margin-bottom: .2rem;
-		color: #848B9B;	
-		}
-	
-	
-	.final-center-text li::before {
-	 	color: #ffffff; 
-  		position: absolute;
-    	content: "■";
-	    left: 4rem; 
-		}
-			
-	 .final-group  > * {
-    	vertical-align: middle;
-    	line-height: normal;
-		}
-		
-	.final-phone-group  > * {
-    	vertical-align: middle;
-    	line-height: normal;
-		}
-	
-	.final-section img {
-		max-width: 100%;
-		}
-	
-	.final-image-one {	
-		display: inline-block;
-		max-width: 25%;
-		margin: 0 2rem 0 4rem;
-		overflow: hidden;
-		}
-	
-	.final-image-two {
-		display: inline-block;
-		max-width: 25%;
-		margin: 0 4rem 0 2rem;	
-		overflow: hidden;
-		}
-		
-	.final-text {
-		display: inline-block;
-		max-width: 40rem;
-		width: 25%;
-		margin: 0 4rem 0 2rem;	
-		text-align: left;
-		}
-	
-	.final-text h2 {
-		color: #ffffff;
-		margin: 0 0 1.2rem 0;
-		}
-	
-	.final-text p {
-		line-height: 3.6rem;
-		color: #848B9B;
-		}
-		
-	.final-phone-text {
-		display: inline-block;
-		max-width: 40rem;
-		width: 25%;
-		margin: 0 4rem 0 2rem;	
-		text-align: left;
-		}
-	
-	.final-phone-text h2 {
-		color: #ffffff;
-		margin: 0 0 1.2rem 0;
-		}
-	
-	.final-phone-text p {
-		line-height: 3.6rem;
-		color: #848B9B;
-		}
-	
-	.final-text-last {
-		margin-bottom: 0;
-		}
-		
-	.final-group {
-		margin-bottom: 4rem;
-		}
-	
-	.final-group:after {  
-  		content: "";
-  		clear: both;
-  		display: table;
-		}
-		
-	.final-phone-group {
-		margin-bottom: 2.5rem;
-		}
-	
-	.final-phone-group:after {  
-  		content: "";
-  		clear: both;
-  		display: table;
-		}
-	
-	
-	.final-quote {
-		padding: 4rem 4rem 2.9rem 4rem;
-		max-width: 70rem;
-		margin: 0 auto;
-		clear: both;
-		overflow: hidden;
-		text-align: center;
-		position: relative;
-		color: #ffffff;
-		 border: .1rem solid #32383C;
-		 margin-bottom: 2rem;
-		}
-		
-	.final-quote p {
-		margin-bottom: .9rem;
-		}
-		
-	.quote-caption {
-		font-size: 1.4rem;
-		line-height: 2.2rem;
-		font-weight: 400;
-		color: #848B9B;	
-		margin-top: 1.2rem;
-		}
-	
-	.quote-icon {
-		height: 3rem;
-		fill: #ffffff;
-		-webkit-transition: all .3s ease;
-		-moz-transition: all .3s ease;
-		-ms-transition: all .3s ease;
-		-o-transition: all .3s ease;
-		transition: all .3s ease;	
-		}
-	
-	.quote-marks {
-		font-size: 2.4rem;
-		display: inline-block;
-		 font-family: "Times New Roman", serif;
-		 margin: 0 .2rem 0 .2rem;
-	}
-	
-	.quote-icon:hover {
-		text-decoration: none;
-		fill: #81CC3E;
-		}	
-
-/* Three pieces & redlines */
-	
-	.threeimage {
-		margin: 0 auto;
-		padding: 4.2rem 0 3.3rem 0;
-		text-align: center;
-		overflow: auto;
-		}
-	
-	.threeimage img {
-		max-width: 100%;
-		max-height: 85vh;
-		height: inherit !important;
-		}
-	
-	.three-image-one {	
-		display: inline-block;
-		max-width: 25%;
-		margin: 0 2rem 0 4rem;
-		overflow: hidden;
-		}
-	
-	.three-image-two {
-		display: inline-block;
-		max-width: 25%;
-		margin: 0 2rem 0 2rem;	
-		overflow: hidden;
-		}
-		
-	.three-image-three {
-		display: inline-block;
-		max-width: 25%;
-		margin: 0 4rem 0 2rem;	
-		overflow: hidden;
-		}
-
-/* Two pieces */
-
-	.twoimage {
-		margin: 0 auto;
-		padding: 4.2rem 0 1.2rem 0;
-		text-align: center;
-		overflow: auto;
-		}
-	
-	.twoimage img {
-		max-width: 100%;
-		max-height: 85vh;
-		height: inherit !important;
-		}
-	
-	.twoimage p {
-		margin: auto;
-		font-size: 1.4rem;
-		line-height: 2.2rem;
-		font-weight: 350;
-		text-align: center;
-		padding: 1.2rem 0 0 0;
-		}
-		
-	.two-image-one {	
-		display: inline-block;
-		max-width: 40%;
-		margin: 0 2rem 0 0;
-		overflow: hidden;
-		 vertical-align: top;
-		}
-	
-	.two-image-two {
-		display: inline-block;
-		max-width: 40%;
-		margin: 0 0 0 2rem;	
-		overflow: hidden;
-		 vertical-align: top;
-		}
-
-/* Award */
-	.award-icon {
-		height: 9rem;
-		width: 27rem;
-		}
-		
-	.award-left {
-		float: left;
-		width: 50%;
-		}
-		
-	.award-right {
-		float: right;
-		width: 50%;
-		}
-	
-	.award-icon-placement {
-		text-align: center;
-		}
-	
-
 		
 /* Press */	
 	.press {
@@ -1009,46 +678,9 @@ hr {
    		display: inline-block;
     	width: 100%;
 		}
-
-/* Press Logos */
-	.onetwentyfour {
-		 width: 12.4rem;
-		}
-		
-	.presssixty {
-		 width: 6rem;
-		}
-	
-	.pressthirty {
-		width: 3rem;
-	}
-	
-	.tc-quote {
-		 width: 6rem;
-		}
-	
-	.venturebeat {
-		width: 23.3rem;
-		}
-	
-	.digitaltrends {
-		width: 19.7rem;
-		}
-	
-	.adweek {
-		width: 8.3rem;
-		}
-	
-	.adweek-quote {
-		width: 8.3rem;
-		}
-	
-	.mediapost {
-		width: 12.1rem;
-	}
 	
 		
-/* Selected Work Thumbnails */
+/* Selected Project Previews */
 	.preview-small-wrapper {
 		text-align: center;
 		padding: 4rem 2rem 0 2rem;
@@ -1076,12 +708,6 @@ hr {
 		-moz-opacity: 1;
 		filter: alpha(opacity=100);
 		}
-
-	.preview-small-wrapper .aaplopacity{
-		opacity: .5;
-		-moz-opacity: .5;
-		filter: alpha(opacity=50);
-		}
 	
 	.preview-small:hover {
 		opacity: 1;
@@ -1108,20 +734,13 @@ hr {
 		height: 20rem;
 		}
 	
-	.preview-small-icon-placement {
-		position: absolute;
-		top: 7.5rem;
-		left: 7.5rem;		
-		z-index: 1;
-		}
-	
 	.preview-small-freshies {
 		position: absolute;
 		top: 0;
 		left: 0;
 		width: 20rem;
 		height: 20rem;
-		background-color: #FFBA13;
+		background-color: #81CC3E;
 		opacity: .9;
 		-moz-opacity: 0.9;
 		filter: alpha(opacity=90);
@@ -1133,31 +752,7 @@ hr {
 		left: 0;
 		width: 20rem;
 		height: 20rem;
-		background-color: #F25E39;
-		opacity: .9;
-		-moz-opacity: 0.9;
-		filter: alpha(opacity=90);
-		}
-	
-	.preview-small-musicpix {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 20rem;
-		height: 20rem;
-		background-color: #F15C3C;
-		opacity: .9;
-		-moz-opacity: 0.9;
-		filter: alpha(opacity=90);
-		}
-		
-	.preview-small-locket {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 20rem;
-		height: 20rem;
-		background-color: #3EC3DE;
+		background-color: #81CC3E;
 		opacity: .9;
 		-moz-opacity: 0.9;
 		filter: alpha(opacity=90);
@@ -1169,19 +764,7 @@ hr {
 		left: 0;
 		width: 20rem;
 		height: 20rem;
-		background-color: #3AA8FF;
-		opacity: .9;
-		-moz-opacity: 0.9;
-		filter: alpha(opacity=90);
-		}
-	
-	.preview-small-aapl {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 20rem;
-		height: 20rem;
-		background-color: #A4C3CE;
+		background-color: #81CC3E;
 		opacity: .9;
 		-moz-opacity: 0.9;
 		filter: alpha(opacity=90);
@@ -1191,55 +774,6 @@ hr {
 	.img100 {
 		width: 100%;
 	}
-
-/* Friend List */
-
-	.friend-list {
-		width: 100%;
-		position: relative;
-		top: initial;
-		left: initial;
-		margin: 0 auto;
-		padding: .6rem 0 7.2rem 0;
-		margin-bottom: 2.6rem;
-		max-width: 70rem;
-		}
-
-	.friend-list h4 {
-		font-family: 'Type', 'type-light', sans-serif;
-		font-weight: 350;
-		font-size: 1.4rem;
-		line-height: 2.4rem;
-		}
-
-	.friend-list a {
-		font-size: 1.4rem;
-		}
-
-	.friend-list p {
-		font-family: 'Type', 'type-light', sans-serif;
-		font-weight: 350;
-		font-size: 1.4rem;
-		line-height: 2.4rem;
-		text-transform: none;
-		}
-	
-	.friend-left {
-		float: left;
-		width: 24rem;
-		}
-
-	.friend-right {
-		float: right;
-		width: 24rem;
-		}
-	
-	.arrow-up {
-		font-size: 1.5rem;
-		position: relative;
-		bottom: -.25rem;
-		
-		}
 
 
 /* Footer */
@@ -1403,35 +937,9 @@ hr {
 	.margin-bottom-18 {
 		margin-bottom: 1.8rem;
 		}
-	
-	.parallax-musicpix { 
-    	background-color: #d8672d;
-		background-image: url("../projects/musicpix/img-smallsplash.png");
-    	height: 60vh; 
-    	background-attachment: fixed;
-   	 	background-position: center;
-    	background-repeat: no-repeat;
-	   	-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;	
-		}
-	
-	.parallax-locket{ 
-    	background-color: #42c4dd;
-		background-image: url("../projects/locket/img-smallsplash.png");
-    	height: 60vh; 
-    	background-attachment: fixed;
-   	 	background-position: center;
-    	background-repeat: no-repeat;
-	   	-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;	
-		}
 		
 	.parallax-freshies{ 
-    	background-color: #ffba13;
+    	background-color: #81CC3E;
 		background-image: url("../projects/freshies/img-smallsplash.png");
     	height: 60vh; 
     	background-attachment: fixed;
@@ -1444,7 +952,7 @@ hr {
 		}
 	
 	.parallax-staywell { 
-    	background-color: #ff5538;
+    	background-color: #81CC3E;
 		background-image: url("../projects/staywell/img-largesplash.png");
     	height: 60vh; 
     	background-attachment: fixed;
@@ -1457,7 +965,7 @@ hr {
 		}
 	
 	.parallax-app-review{ 
-    	background-color: #3aa8ff;
+    	background-color: #81CC3E;
 		background-image: url("../projects/app-review/img-smallsplash.png");
     	height: 60vh; 
     	background-attachment: fixed;
@@ -1469,18 +977,6 @@ hr {
 		background-size: cover;	
 		}
 	
-	.parallax-aapl { 
-    	background-color: #A4C3CE;
-		background-image: url("../projects/noindex/img-largesplash.svg");
-    	height: 60vh; 
-    	background-attachment: fixed;
-   	 	background-position: center;
-    	background-repeat: no-repeat;
-	   	-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;	
-		}
 }
 	
 @media all and (max-width:75em) {	
@@ -1781,35 +1277,6 @@ hr {
 		
 		}
 	
-	.friend-left {
-		float: none;
-		width: 100%;
-		max-width: 40rem;
-		}
-
-	.friend-right {
-		float: none;
-		width: 100%;
-		max-width: 40rem;
-		margin-bottom: 0;
-		}
-
-	.friend-list h4 {
-		color: #121213;
-		font-size: 1.4rem;
-		}
-	
-	.friend-list {
-		padding-bottom: 0;
-	 }
-	
-	/* .friend-list p {
-		font-size: 1.8rem;
-		line-height: 3.6rem;
-		text-transform: none;
-		}*/
-	
-	
 	.final-image-one {
 		max-width: 100%;
 		margin: 0;
@@ -2072,15 +1539,6 @@ hr {
 
 
 @media (any-pointer: none), (any-pointer: coarse), (any-hover: none), (any-hover: on-demand) {
-	.parallax-musicpix {
-        background-attachment: scroll;
-		background-image: url("../projects/musicpix/img-largesplash-mobile.png");
-    	}
-	
-	.parallax-locket {
-        background-attachment: scroll;
-		background-image: url("../projects/locket/img-largesplash-mobile.png");
-    	}
 	
 	.parallax-freshies {
         background-attachment: scroll;
@@ -2097,24 +1555,12 @@ hr {
 		background-image: url("../projects/app-review/img-largesplash.png");
     	}
 	
-	.parallax-aapl {
-        background-attachment: scroll;
-		background-image: url("../projects/noindex/img-largesplash-mobile.svg");
-    	}
-	
 	.image-wrapper img {
 		max-height: none;
 		}
 }
 
 @media (any-pointer: none) and (max-device-width:37em), (any-pointer: coarse) and (max-device-width:37em), (any-hover: none) and (max-device-width:37em), (any-hover: on-demand) and (max-device-width:37em) {
-	.parallax-musicpix { 
-		background-image: url("../projects/musicpix/img-smallsplash-mobile.png");
-		}
-		
-	.parallax-locket { 
-		background-image: url("../projects/locket/img-smallsplash-mobile.png");
-		}
 		
 	.parallax-freshies { 
 		background-image: url("../projects/freshies/img-smallsplash-mobile.png");
@@ -2127,10 +1573,6 @@ hr {
 	.parallax-app-review { 
 		background-image: url("../projects/app-review/img-smallsplash-mobile.png");
 		}
-	
-		.parallax-aapl {
-		background-image: url("../projects/noindex/img-largesplash-mobile.svg");
-    	}
 	
 		
 	body {
