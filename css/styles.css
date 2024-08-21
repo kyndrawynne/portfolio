@@ -412,7 +412,7 @@ hr {
 
 	.parallax-app-review { 
     	background-color: #3aa8ff;
-		background-image: url("../app-review/img-largesplash.png");
+		background-image: url("../projects/app-review/img-largesplash.png");
     	height: 60vh; 
     	background-attachment: fixed;
    	 	background-position: center;
