@@ -1133,6 +1133,11 @@ hr {
 		padding-top: 0;
 	}
 
+	.projects-previews {
+	padding-left: 3rem;
+	padding-right: 3rem;
+	}
+
 	
 	.preview-right {
 		padding: 0 0 3.2rem 0;
