@@ -967,7 +967,7 @@ hr {
 	.parallax-app-review{ 
     	background-color: #81CC3E;
 		background-image: url("../projects/app-review/img-smallsplash.png");
-    	height: 60vh; 
+    	height: 40%; 
     	background-attachment: fixed;
    	 	background-position: center;
     	background-repeat: no-repeat;
@@ -1180,40 +1180,6 @@ hr {
 		}
 }
 		
-	
-@media all and (max-width:48em) {
-	.final-image-one {
-		max-width: 46%;	
-		}
-	
-	.final-image-two {
-		max-width: 46%;	
-		}
-		
-	.final-image-phone-one {
-		max-width: 46%;	
-		}
-	
-	.final-image-phone-two {
-		max-width: 46%;	
-		}
-		
-	.final-quote {
-		padding: 4rem 4rem 2.9rem 4rem;
-		 margin: 0 4rem 2rem 4rem;
-		}
-	
-	.award-left {
-		float: none;
-		width: 100%;
-		}
-		
-	.award-right {
-		float: none;
-		width: 100%;
-		}
-	
-}
 	
 	
 @media all and (max-width:37.5em) {
