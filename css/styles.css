@@ -1163,7 +1163,8 @@ hr {
 	
 	.projects-image {
 		max-width: none;
-		padding: 0;
+		padding-left: 3rem;
+		padding-right: 3rem;
 		}
 	
 	.projects-mid-image {
