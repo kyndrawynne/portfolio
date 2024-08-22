@@ -966,8 +966,8 @@ hr {
 	
 	.parallax-app-review{ 
     	background-color: #81CC3E;
-		background-image: url("../projects/app-review/img-smallsplash.png");
-    	height: 40%; 
+		background-image: url("../projects/app-review/img-largesplash.png");
+    	height: 50vh; 
     	background-attachment: fixed;
    	 	background-position: center;
     	background-repeat: no-repeat;
