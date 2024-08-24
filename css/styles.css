@@ -41,7 +41,16 @@ body {
 
 h1 {
 	font-family: 'SF-Pro', sans-serif;
-	font-size: 8.0rem;
+	font-size: 9.0rem;
+	line-height: 9.0rem;
+	letter-spacing: -0.01em;
+	font-weight: 550;
+	color: #121213;
+	margin: 0 0 2rem 0;
+}
+hp {
+	font-family: 'SF-Pro', sans-serif;
+	font-size: 6.0rem;
 	line-height: 8.0rem;
 	letter-spacing: -0.01em;
 	font-weight: 550;
@@ -393,6 +402,18 @@ hr {
    	 	background-position: center;
     	background-repeat: no-repeat;
 	   	-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;	
+		}
+	.parallax-nft { 
+		background-color: #81CC3E;
+		background-image: url("../projects/nft/img-largesplash.png");
+		height: 60vh; 
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;	
@@ -769,6 +790,18 @@ hr {
 		-moz-opacity: 0.9;
 		filter: alpha(opacity=90);
 		}
+
+	.preview-small-nft {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 20rem;
+		height: 20rem;
+		background-color: #81CC3E;
+		opacity: .9;
+		-moz-opacity: 0.9;
+		filter: alpha(opacity=90);
+		}
 	
 
 	.img100 {
@@ -972,6 +1005,18 @@ hr {
    	 	background-position: center;
     	background-repeat: no-repeat;
 	   	-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;	
+		}
+	.parallax-nft{ 
+		background-color: #81CC3E;
+		background-image: url("../projects/nft/img-largesplash.png");
+		height: 50vh; 
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;	
@@ -1526,6 +1571,11 @@ hr {
         background-attachment: scroll;
 		background-image: url("../projects/app-review/img-largesplash.png");
     	}
+
+	.parallax-nft {
+		background-attachment: scroll;
+		background-image: url("../projects/nft/img-largesplash.png");
+		}
 	
 	.image-wrapper img {
 		max-height: none;
@@ -1544,6 +1594,10 @@ hr {
 	
 	.parallax-app-review { 
 		background-image: url("../projects/app-review/img-smallsplash-mobile.png");
+		}
+
+	.parallax-nft { 
+		background-image: url("../projects/nft/img-smallsplash-mobile.png");
 		}
 	
 		
