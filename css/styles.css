@@ -395,7 +395,7 @@ hr {
 		}
 
 	.parallax-app-review { 
-    	background-color: #81CC3E;
+    	background-color: #0C8EFD;
 		background-image: url("../projects/app-review/img-largesplash.png");
     	height: 60vh; 
     	background-attachment: fixed;
@@ -407,7 +407,7 @@ hr {
 		background-size: cover;	
 		}
 	.parallax-nft { 
-		background-color: #81CC3E;
+		background-color: #C3B3ED;
 		background-image: url("../projects/nft/img-largesplash.png");
 		height: 60vh; 
 		background-attachment: fixed;
@@ -934,8 +934,8 @@ hr {
 @media all and (max-width:80em) {	
 	
 	.Kyndra-banner {
-		padding-bottom: 6rem;
-		padding-top:6rem;
+		padding-bottom: 5rem;
+		padding-top:5rem;
 		}
 		
 	.Kyndra-banner a:link, a:visited{
@@ -1425,8 +1425,8 @@ hr {
 		}
 	
 	.Kyndra-banner {
-		padding-left: 4rem;
-		padding-right: 4rem;
+		padding-left: 3.5rem;
+		padding-right: 3.5rem;
 	}
 	
 }
