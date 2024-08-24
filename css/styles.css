@@ -998,7 +998,7 @@ hr {
 		}
 	
 	.parallax-app-review{ 
-    	background-color: #81CC3E;
+    	background-color: #0C8EFD;
 		background-image: url("../projects/app-review/img-largesplash.png");
     	height: 50vh; 
     	background-attachment: fixed;
@@ -1010,7 +1010,7 @@ hr {
 		background-size: cover;	
 		}
 	.parallax-nft{ 
-		background-color: #81CC3E;
+		background-color: #C3B3ED;
 		background-image: url("../projects/nft/img-largesplash.png");
 		height: 50vh; 
 		background-attachment: fixed;
