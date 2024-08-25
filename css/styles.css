@@ -370,7 +370,7 @@ hr {
 	
 	.parallax-freshies { 
     	background-color: #81CC3E;
-		background-image: url("../projects/freshies/img-largesplash.png");
+		background-image: url("../projects/freshies-farms/img-largesplash.png");
     	height: 60vh; 
     	background-attachment: fixed;
    	 	background-position: center;
@@ -973,7 +973,7 @@ hr {
 		
 	.parallax-freshies{ 
     	background-color: #81CC3E;
-		background-image: url("../projects/freshies/img-smallsplash.png");
+		background-image: url("../projects/freshies-farms/img-smallsplash.png");
     	height: 60vh; 
     	background-attachment: fixed;
    	 	background-position: center;
@@ -1559,7 +1559,7 @@ hr {
 	
 	.parallax-freshies {
         background-attachment: scroll;
-		background-image: url("../projects/freshies/img-largesplash-mobile.png");
+		background-image: url("../projects/freshies-farms/img-largesplash-mobile.png");
     	}
 	
 	.parallax-staywell {
@@ -1585,7 +1585,7 @@ hr {
 @media (any-pointer: none) and (max-device-width:37em), (any-pointer: coarse) and (max-device-width:37em), (any-hover: none) and (max-device-width:37em), (any-hover: on-demand) and (max-device-width:37em) {
 		
 	.parallax-freshies { 
-		background-image: url("../projects/freshies/img-smallsplash-mobile.png");
+		background-image: url("../projects/freshies-farms/img-smallsplash-mobile.png");
 		}
 	
 	.parallax-staywell { 
