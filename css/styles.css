@@ -865,7 +865,7 @@ hr {
 		}
 		
 	.parallax-freshies{ 
-    	background-color: #81CC3E;
+    	background-color: #FEF19E;
 		background-image: url("../projects/freshies-farms/img-smallsplash.png");
     	height: 60vh; 
     	background-attachment: fixed;
@@ -878,7 +878,7 @@ hr {
 		}
 	
 	.parallax-staywell { 
-    	background-color: #81CC3E;
+    	background-color: #82DA62;
 		background-image: url("../projects/staywell/img-largesplash.png");
     	height: 60vh; 
     	background-attachment: fixed;
