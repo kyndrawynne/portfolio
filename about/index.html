@@ -12,6 +12,11 @@
     <meta itemprop="name" content="About – Kyndra Wynne / Designer and Front-End Developer" />
     <meta itemprop="description" content="Kyndra Wynne. Kyndra is a designer and front-end developer with a passion for crafting intuitive user experiences." />
 
+    <!-- Security Policies -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' https://ajax.googleapis.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="160x160" href="../favicon-160x160.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png" />
@@ -44,8 +49,8 @@
     <link rel="stylesheet" type="text/css" href="../css/styles2.css" />
     <link rel="stylesheet" href="../css/styles.css" />
 
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Updated jQuery Version -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script>
     (function($) {          
@@ -67,34 +72,10 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-123708160-1');
     </script>
 </head>
 <body>
-
-<svg display="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-                
-        <!-- LinkedIn -->
-        <symbol id="ic-soc-li" viewBox="0 0 24 24">
-        <title>LinkedIn account – kyndrawynne</title>
-        <desc>LinkedIn logo linked to the LinkedIn account for Kyndra Wynne</desc>
-        <g transform="matrix(1,0,0,1,-62,2)">
-        <path d="M80.641,0L67.359,0C65.512,0 64,1.512 64,3.359L64,16.641C64,18.488 65.512,20 67.359,20L80.641,20C82.488,20 84,18.488 84,16.641L84,3.359C84,1.512 82.488,0 80.641,0ZM71.5,16.25L69,16.25L69,7.5L71.5,7.5L71.5,16.25ZM70.25,6.25C69.56,6.25 69,5.69 69,5C69,4.31 69.56,3.75 70.25,3.75C70.94,3.75 71.5,4.31 71.5,5C71.5,5.69 70.94,6.25 70.25,6.25ZM80.25,16.25L77.75,16.25L77.75,11.25C77.75,10.56 77.19,10 76.5,10C75.81,10 75.25,10.56 75.25,11.25L75.25,16.25L72.75,16.25L72.75,7.5L75.25,7.5L75.25,9.052C75.766,8.344 76.554,7.5 77.438,7.5C78.991,7.5 80.25,8.899 80.25,10.625L80.25,16.25Z" />
-        </g>
-        </symbol>
-
-        <!-- Email -->
-        <symbol id="ic-soc-email" viewBox="0 0 24 24">
-        <title>knwynne@asu.edu</title>
-        <desc>Email icon linked to knwynne@asu.edu</desc>
-        <g transform="matrix(1,0,0,1,-122,2)">
-        <path d="M142,2L126,2C124.9,2 124,2.9 124,4L124,16C124,17.1 124.9,18 126,18L142,18C143.1,18 144,17.1 144,16L144,4C144,2.9 143.1,2 142,2ZM142,6L134,11L126,6L126,4L134,9L142,4L142,6Z" />
-        </g>
-        </symbol>
-    </defs>
-</svg>
 
 <!-- Navigation -->
 <div class="navigationbar">
@@ -103,11 +84,9 @@
            <li class="hidesmall145">
                 <a href="../resume/">RESUME</a>
             </li>
-            
             <li class="hidesmall197 active">
                 <a href="../about/">ABOUT</a>
             </li>
-  
             <li class="hidesmall9">
                 <a href="../">PROJECTS</a>
             </li>
@@ -119,29 +98,17 @@
     <div class="navigationbar">
         <div class="nav">    
             <div class="name">
-                <a href="../">
-                    Kyndra Wynne
-                </a>
+                <a href="../">Kyndra Wynne</a>
             </div>
-
             <div class="name-logo">
                 <a href="../">
                     <svg class="name-icon"><use xlink:href="#ic-x-icon" /></svg>
                 </a>
             </div>
-            
             <ul>
-                <li class="hidesmall145">
-                    <a href="../resume/">RESUME</a>
-                </li>
-                
-                <li class="hidesmall197 active">
-                    <a href="../about/">ABOUT</a>
-                </li>
-  
-                <li class="hidesmall9">
-                    <a href="../">PROJECTS</a>
-                </li>    
+                <li class="hidesmall145"><a href="../resume/">RESUME</a></li>
+                <li class="hidesmall197 active"><a href="../about/">ABOUT</a></li>
+                <li class="hidesmall9"><a href="../">PROJECTS</a></li>    
             </ul>
         </div>
     </div>
