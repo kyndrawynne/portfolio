@@ -17,7 +17,7 @@
 
     <!-- Security Policies with Nonce -->
     <meta http-equiv="Content-Security-Policy"
-        content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'nonce-ABC123' https://ajax.googleapis.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+        content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'nonce-XYZ12345' https://ajax.googleapis.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta name="referrer" content="strict-origin-when-cross-origin">
 
@@ -56,10 +56,10 @@
     <link rel="stylesheet" href="../css/styles.css" />
 
     <!-- Updated jQuery Version -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" nonce="ABC123"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" nonce="XYZ12345"></script>
 
     <!-- Sticky Navigation Script -->
-    <script type="text/javascript" nonce="ABC123">
+    <script type="text/javascript" nonce="XYZ12345">
         (function ($) {
             $(document).ready(function () {
                 $(window).on('scroll', function () {
@@ -75,8 +75,8 @@
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123708160-1" nonce="ABC123"></script>
-    <script nonce="ABC123">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123708160-1" nonce="XYZ12345"></script>
+    <script nonce="XYZ12345">
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
