@@ -16,11 +16,17 @@
         content="Kyndra Wynne is a designer and front-end developer passionate about crafting intuitive user experiences." />
 
     <!-- Security Policies with Nonce -->
-    <meta http-equiv="Content-Security-Policy"
-        content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'nonce-XYZ12345' https://ajax.googleapis.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
-
+	<meta http-equiv="Content-Security-Policy"
+	content="default-src 'self'; 
+	base-uri 'self'; 
+	object-src 'none'; 
+	script-src 'self' 'nonce-XYZ12345' https://ajax.googleapis.com https://www.googletagmanager.com https://www.google-analytics.com; 
+	style-src 'self' 'unsafe-inline'; 
+	img-src 'self' data:; 
+	connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com;">
+	<meta http-equiv="X-Content-Type-Options" content="nosniff">
+	<meta name="referrer" content="strict-origin-when-cross-origin">
+    
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="160x160" href="../favicon-160x160.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png" />

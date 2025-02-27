@@ -18,7 +18,13 @@
 
     <!-- Security Policies with Nonce -->
     <meta http-equiv="Content-Security-Policy"
-        content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'nonce-XYZ12345' https://ajax.googleapis.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+        content="default-src 'self'; 
+        base-uri 'self'; 
+        object-src 'none'; 
+        script-src 'self' 'nonce-XYZ12345' https://ajax.googleapis.com https://www.googletagmanager.com https://www.google-analytics.com; 
+        style-src 'self' 'unsafe-inline'; 
+        img-src 'self' data:; 
+        connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://stats.g.doubleclick.net;">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta name="referrer" content="strict-origin-when-cross-origin">
 

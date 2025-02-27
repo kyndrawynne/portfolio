@@ -2,6 +2,7 @@
 <html lang="en" itemscope itemtype="http://schema.org/Article">
 
 <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
     <title>App Review Dashboard &ndash; Kyndra Wynne &nbsp;/&nbsp; UX/UI Designer</title>
     <meta name="description"
@@ -12,6 +13,18 @@
     <meta name="publisher" content="Kyndra Wynne" />
     <meta name="copyright" content="Kyndra Wynne" />
 
+    <!-- Security Policies with Nonce -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; 
+        base-uri 'self'; 
+        object-src 'none'; 
+        script-src 'self' 'nonce-XYZ12345' https://ajax.googleapis.com https://www.googletagmanager.com https://www.google-analytics.com; 
+        style-src 'self' 'unsafe-inline'; 
+        img-src 'self' data:; 
+        connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://stats.g.doubleclick.net;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="160x160" href="../../favicon-160x160.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
@@ -21,22 +34,22 @@
     <meta name="theme-color" content="#ffffff" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="About – Kyndra Wynne / Designer and Front-End Developer" />
+    <meta property="og:title" content="App Review Dashboard – Kyndra Wynne / Designer and Front-End Developer" />
     <meta property="og:site_name" content="Kyndra Wynne" />
     <meta property="og:image" content="../projects/app-review-preview.png" />
     <meta property="og:type" content="website" />
     <meta property="og:description"
-        content="Kyndra Wynne. Kyndra is a designer and front-end developer with a passion for crafting intuitive user experiences." />
-    <meta property="og:url" content="https://kyndrawynne.com/about/" />
+        content="A conceptual internal dashboard designed to streamline the content review process for digital marketplaces and content platforms." />
+    <meta property="og:url" content="https://kyndrawynne.com/projects/app-review" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@kyndrawynne" />
-    <meta name="twitter:title" content="About – Kyndra Wynne / Designer and Front-End Developer" />
+    <meta name="twitter:title" content="App Review Dashboard – Kyndra Wynne / Designer and Front-End Developer" />
     <meta name="twitter:description"
-        content="Kyndra Wynne. Kyndra is a designer and front-end developer with a passion for crafting intuitive user experiences." />
+        content="A conceptual internal dashboard designed to streamline the content review process for digital marketplaces and content platforms." />
     <meta name="twitter:image" content="../projects/app-review-preview.png" />
-    <meta name="twitter:site" content="https://kyndrawynne.com/about/" />
+    <meta name="twitter:site" content="https://kyndrawynne.com/projects/app-review" />
 
     <!-- Mobile -->
     <meta name="format-detection" content="telephone=no" />
@@ -46,10 +59,11 @@
     <link rel="stylesheet" type="text/css" href="../../css/styles2.css" />
     <link rel="stylesheet" href="../../css/styles.css" />
 
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Updated jQuery Version -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" nonce="XYZ12345"></script>
 
-    <script>
+    <!-- Sticky Navigation Script -->
+    <script type="text/javascript" nonce="XYZ12345">
         (function ($) {
             $(document).ready(function () {
                 $(window).scroll(function () {
@@ -59,21 +73,22 @@
                         $('#stickiednavigationbar').fadeOut(300);
                     }
                 });
+                $(window).trigger('scroll');
             });
         })(jQuery);
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123708160-1"></script>
-    <script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123708160-1" nonce="XYZ12345"></script>
+    <script nonce="XYZ12345">
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-123708160-1');
     </script>
 
 </head>
+
 
 <body>
 
