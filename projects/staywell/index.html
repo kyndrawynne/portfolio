@@ -2,15 +2,22 @@
 <html lang="en" itemscope itemtype="http://schema.org/Article">
 
 <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
-    <title>StayWell Project &ndash; Kyndra Wynne &nbsp;/&nbsp; UX/UI Designer</title>
+    <title>StayWell Project – Kyndra Wynne / UX/UI Designer</title>
     <meta name="description"
-        content="A comprehensive case study detailing the design and development process of the StayWell project, focusing on enhancing user experience and promoting well-being.">
-    <meta name="keywords" content="Kyndra, Kyndra Wynne, Wynne, UX Design, UI Design, StayWell" />
+        content="A comprehensive case study detailing the design and development process of the StayWell project, focusing on enhancing user experience and promoting well-being." />
+    <meta name="keywords" content="Kyndra, Kyndra Wynne, UX Design, UI Design, StayWell, Health App, Well-being" />
     <link href="https://kyndrawynne.com/projects/staywell/" rel="canonical" />
     <meta name="author" content="Kyndra Wynne" />
     <meta name="publisher" content="Kyndra Wynne" />
     <meta name="copyright" content="Kyndra Wynne" />
+
+    <!-- Security Policies with Nonce -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'nonce-ABC123' https://ajax.googleapis.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="160x160" href="../../favicon-160x160.png" />
@@ -21,20 +28,20 @@
     <meta name="theme-color" content="#ffffff" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="StayWell Project – Kyndra Wynne / Designer and Front-End Developer" />
+    <meta property="og:title" content="StayWell Project – Kyndra Wynne / UX/UI Designer" />
     <meta property="og:site_name" content="Kyndra Wynne" />
     <meta property="og:image" content="staywell-preview.png" />
     <meta property="og:type" content="website" />
     <meta property="og:description"
-        content="Kyndra Wynne. A designer and front-end developer passionate about creating user-centered experiences that promote well-being." />
+        content="A comprehensive case study detailing the design and development process of the StayWell project, focusing on enhancing user experience and promoting well-being." />
     <meta property="og:url" content="https://kyndrawynne.com/projects/staywell/" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@kyndrawynne" />
-    <meta name="twitter:title" content="StayWell Project – Kyndra Wynne / Designer and Front-End Developer" />
+    <meta name="twitter:title" content="StayWell Project – Kyndra Wynne / UX/UI Designer" />
     <meta name="twitter:description"
-        content="Kyndra Wynne. A designer and front-end developer passionate about creating user-centered experiences that promote well-being." />
+        content="A comprehensive case study detailing the design and development process of the StayWell project, focusing on enhancing user experience and promoting well-being." />
     <meta name="twitter:image" content="staywell-preview.png" />
     <meta name="twitter:site" content="https://kyndrawynne.com/projects/staywell/" />
 
@@ -46,10 +53,11 @@
     <link rel="stylesheet" type="text/css" href="../../css/styles2.css" />
     <link rel="stylesheet" href="../../css/styles.css" />
 
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Updated jQuery Version -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" nonce="ABC123"></script>
 
-    <script>
+    <!-- Sticky Navigation Script -->
+    <script type="text/javascript" nonce="ABC123">
         (function ($) {
             $(document).ready(function () {
                 $(window).scroll(function () {
@@ -59,21 +67,21 @@
                         $('#stickiednavigationbar').fadeOut(300);
                     }
                 });
+                $(window).trigger('scroll');
             });
         })(jQuery);
     </script>
 
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123708160-1"></script>
-    <script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123708160-1" nonce="ABC123"></script>
+    <script nonce="ABC123">
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-123708160-1');
     </script>
-
 </head>
+
 
 <body>
 
@@ -145,7 +153,9 @@
         <div class="projects-summary">
             <hp>StayWell Medical Habit Tracker</hp>
             <p><strong>Empowering Personal Healthcare Management</strong></p>
-            <p>StayWell is a mobile application designed to simplify personal healthcare management. The app integrates habit tracking, appointment management, and secure document storage into a single, user-friendly platform, helping users take control of their health.</p>
+            <p>StayWell is a mobile application designed to simplify personal healthcare management. The app integrates
+                habit tracking, appointment management, and secure document storage into a single, user-friendly
+                platform, helping users take control of their health.</p>
         </div>
 
         <div class="projects-infosheet">
@@ -167,7 +177,10 @@
         <div class="projects-body">
             <div class="projects-group">
                 <h2>THE CHALLENGE</h2>
-                <p>Managing personal health can be overwhelming. People need a way to keep track of their medical information, manage appointments, and maintain healthy habits without feeling burdened. StayWell addresses these challenges by offering an intuitive platform that centralizes healthcare management.</p>
+                <p>Managing personal health can be overwhelming. People need a way to keep track of their medical
+                    information, manage appointments, and maintain healthy habits without feeling burdened. StayWell
+                    addresses these challenges by offering an intuitive platform that centralizes healthcare management.
+                </p>
                 <div class="projects-list" style="margin-bottom:6.8rem;">
                     <ul>
                         <li>Ensuring user engagement and retention through an engaging interface.</li>
@@ -178,16 +191,21 @@
                 </div>
 
                 <h2>USER RESEARCH</h2>
-                <p>We conducted comprehensive research to understand user needs, including surveys and interviews targeting individuals interested in health management. We also developed user scenarios to guide our design:</p>
+                <p>We conducted comprehensive research to understand user needs, including surveys and interviews
+                    targeting individuals interested in health management. We also developed user scenarios to guide our
+                    design:</p>
                 <div class="projects-list" style="margin-bottom:6.8rem;">
                     <ul>
-                        <li><strong>Ben Tennyson:</strong> A 40-year-old pastry chef looking to prioritize his health while managing a demanding career.</li>
-                        <li><strong>Kevin Levin:</strong> A 45-year-old security guard helping his friend Peter stay on track with his health without disrupting his own routine.</li>
+                        <li><strong>Ben Tennyson:</strong> A 40-year-old pastry chef looking to prioritize his health
+                            while managing a demanding career.</li>
+                        <li><strong>Kevin Levin:</strong> A 45-year-old security guard helping his friend Peter stay on
+                            track with his health without disrupting his own routine.</li>
                     </ul>
                 </div>
 
                 <h2>THE GOAL</h2>
-                <p>Our primary objective was to develop a mobile application that empowers users to manage their personal health effectively. StayWell was designed with these goals:</p>
+                <p>Our primary objective was to develop a mobile application that empowers users to manage their
+                    personal health effectively. StayWell was designed with these goals:</p>
                 <div class="projects-list" style="margin-bottom:6.8rem;">
                     <ul>
                         <li>Centralize healthcare management by integrating key features.</li>
@@ -212,22 +230,33 @@
         <div class="projects-body">
 
             <h2>DESIGN THINKING PROCESS</h2>
-            <p>The StayWell project followed a user-centered design thinking approach, comprising the following phases:</p>
+            <p>The StayWell project followed a user-centered design thinking approach, comprising the following phases:
+            </p>
 
             <h3><strong>Empathize</strong></h3>
-            <p>We began by understanding the users’ needs, motivations, and pain points through interviews and surveys. This phase helped us create detailed user personas and empathy maps, which guided the design process.</p>
+            <p>We began by understanding the users’ needs, motivations, and pain points through interviews and surveys.
+                This phase helped us create detailed user personas and empathy maps, which guided the design process.
+            </p>
 
             <h3><strong>Define</strong></h3>
-            <p>Based on our research, we identified core problems such as difficulty in managing healthcare tasks and the need for secure document storage. We developed a problem statement that focused our design efforts on solving these issues.</p>
+            <p>Based on our research, we identified core problems such as difficulty in managing healthcare tasks and
+                the need for secure document storage. We developed a problem statement that focused our design efforts
+                on solving these issues.</p>
 
             <h3><strong>Ideate</strong></h3>
-            <p>We brainstormed various design solutions, including a habit tracker, appointment manager, and document storage system. These ideas were refined through feedback and collaborative discussions, resulting in a comprehensive design plan.</p>
+            <p>We brainstormed various design solutions, including a habit tracker, appointment manager, and document
+                storage system. These ideas were refined through feedback and collaborative discussions, resulting in a
+                comprehensive design plan.</p>
 
             <h3><strong>Prototype</strong></h3>
-            <p>Using Figma, we developed high-fidelity prototypes that visualized the final design. We also implemented the front-end in React Native, ensuring the app was responsive and accessible on both iOS and Android devices.</p>
+            <p>Using Figma, we developed high-fidelity prototypes that visualized the final design. We also implemented
+                the front-end in React Native, ensuring the app was responsive and accessible on both iOS and Android
+                devices.</p>
 
             <h3><strong>Test</strong></h3>
-            <p>We conducted usability tests with real users to gather feedback on the app’s functionality and design. Insights from these tests led to iterative improvements, ensuring the final product met user expectations.</p>
+            <p>We conducted usability tests with real users to gather feedback on the app’s functionality and design.
+                Insights from these tests led to iterative improvements, ensuring the final product met user
+                expectations.</p>
 
         </div>
     </div>
@@ -238,14 +267,22 @@
     <div class="wrapper">
         <div class="projects-body">
             <h2>THE SOLUTION: STAYWELL APP</h2>
-            <p>The StayWell app offers a holistic solution for personal healthcare management, providing users with the tools they need to take control of their health.</p>
+            <p>The StayWell app offers a holistic solution for personal healthcare management, providing users with the
+                tools they need to take control of their health.</p>
             <div class="projects-list" style="margin-bottom:6.8rem;">
                 <ul>
-                    <li><strong>Personalized Dashboard:</strong> Users can view their upcoming appointments, track their health habits, and access their stored medical documents from a single, centralized dashboard.</li>
-                    <li><strong>Habit Tracker:</strong> Users can set health goals, track their progress, and receive reminders to stay on track.</li>
-                    <li><strong>Appointment Manager:</strong> The calendar feature allows users to schedule and manage appointments, ensuring they never miss a doctor’s visit or medication reminder.</li>
-                    <li><strong>Document Storage:</strong> Users can securely upload and store important medical documents, such as lab results and insurance cards, which can be accessed quickly when needed.</li>
-                    <li><strong>Shareability:</strong> Users can share their health data with friends and family, creating a support system that helps them stay accountable.</li>
+                    <li><strong>Personalized Dashboard:</strong> Users can view their upcoming appointments, track their
+                        health habits, and access their stored medical documents from a single, centralized dashboard.
+                    </li>
+                    <li><strong>Habit Tracker:</strong> Users can set health goals, track their progress, and receive
+                        reminders to stay on track.</li>
+                    <li><strong>Appointment Manager:</strong> The calendar feature allows users to schedule and manage
+                        appointments, ensuring they never miss a doctor’s visit or medication reminder.</li>
+                    <li><strong>Document Storage:</strong> Users can securely upload and store important medical
+                        documents, such as lab results and insurance cards, which can be accessed quickly when needed.
+                    </li>
+                    <li><strong>Shareability:</strong> Users can share their health data with friends and family,
+                        creating a support system that helps them stay accountable.</li>
                 </ul>
             </div>
         </div>
@@ -290,10 +327,12 @@
     <div class="wrapper">
         <div class="projects-body">
             <h2>Technologies Used:</h2>
-            <p>The StayWell app was built using modern web technologies to ensure a smooth and scalable user experience:</p>
+            <p>The StayWell app was built using modern web technologies to ensure a smooth and scalable user experience:
+            </p>
             <div class="projects-list" style="margin-bottom:6.8rem;">
                 <ul>
-                    <li><strong>React Native:</strong> For building a dynamic and responsive mobile application compatible with both iOS and Android.</li>
+                    <li><strong>React Native:</strong> For building a dynamic and responsive mobile application
+                        compatible with both iOS and Android.</li>
                     <li><strong>Figma:</strong> For designing and prototyping the user interface.</li>
                     <li><strong>GitHub:</strong> For version control and collaboration during development.</li>
                 </ul>
@@ -306,8 +345,12 @@
         <div class="projects-body">
             <div class="projects-group">
                 <h2>CONCLUSION</h2>
-                <p>The StayWell project successfully addressed the challenges of personal healthcare management by providing a user-friendly, secure, and engaging mobile application. By focusing on the user’s needs and leveraging modern technologies, we created an app that not only simplifies healthcare management but also promotes healthier habits through engagement and personalization.</p>
-                <p>Plans for the next phase of development include implementing backend functionality to support document storage and expanding the app's features to provide even more value to users.</p>
+                <p>The StayWell project successfully addressed the challenges of personal healthcare management by
+                    providing a user-friendly, secure, and engaging mobile application. By focusing on the user’s needs
+                    and leveraging modern technologies, we created an app that not only simplifies healthcare management
+                    but also promotes healthier habits through engagement and personalization.</p>
+                <p>Plans for the next phase of development include implementing backend functionality to support
+                    document storage and expanding the app's features to provide even more value to users.</p>
             </div>
         </div>
     </div>
